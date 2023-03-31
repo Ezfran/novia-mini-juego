@@ -52,7 +52,7 @@ body{
     border: 3px solid transparent;
     transition: .5s border;
 }
-button:hover{
+#btn-yes:hover{
     cursor: pointer;
     border: #d5717b 3px solid;
 }
