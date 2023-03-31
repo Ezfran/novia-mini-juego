@@ -15,10 +15,6 @@ function optionNo (){
 btnYes.addEventListener('click', optionYes);
 
 function optionYes() {
-    // const show = document.createElement('p');
-    // show.textContent = 'Sabía que me amabas <3';
-    // show.classList.add('slow')
-    // container.appendChild(show)
     const sabia = document.querySelector('.sabia');
     sabia.style.transform = 'translateY(25px)'
     img.classList.remove('img');
