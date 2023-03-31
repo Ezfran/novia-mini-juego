@@ -9,6 +9,7 @@ function optionNo (){
     btnNo.style.position = 'absolute';
     btnNo.style.top = (Math.random() * 300) + 'px';
     btnNo.style.left = (Math.random() * 300) + 'px';
+    img.classList.add('imgR')
 };
 
 
@@ -17,6 +18,4 @@ btnYes.addEventListener('click', optionYes);
 function optionYes() {
     const sabia = document.querySelector('.sabia');
     sabia.style.transform = 'translateY(25px)'
-    img.classList.remove('img');
-    img.classList.add('imgR')
 }
