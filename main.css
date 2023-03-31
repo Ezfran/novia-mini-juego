@@ -142,3 +142,8 @@ button:hover{
     font-size: 20px;
     color: #000;
 }
+.att a{
+    color: #000;
+    font-weight: 400;
+    text-decoration: none;
+}
