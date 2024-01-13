@@ -12,7 +12,9 @@ function optionNo (){
     img.classList.add('imgR')
 };
 
-
+// <span>
+                // <img src="heart.webp" alt="">
+             // </span>
 btnYes.addEventListener('click', optionYes);
 
 function optionYes() {
